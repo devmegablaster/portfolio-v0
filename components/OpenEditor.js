@@ -16,8 +16,10 @@ function OpenEditor(props) {
             >
                 <div className="border-r flex items-center border-gray-600">
                     <div
-                        className={`p-1 ${
-                            router.pathname === props.path ? "bg-gray-700" : ""
+                        className={`p-1  ${
+                            router.pathname === props.path
+                                ? "bg-gray-700"
+                                : "hover:bg-gray-900"
                         }`}
                     >
                         <File filename={props.open} path={props.path} />
