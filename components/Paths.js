@@ -20,6 +20,7 @@ function Paths() {
             </div>
             <File filename="index.js" path="/" />
             <File filename="profile.js" path="/profile" />
+            <File filename="projects.js" path="/projects" />
         </div>
     );
 }
