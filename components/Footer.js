@@ -17,7 +17,7 @@ import { SiPrettier } from "react-icons/si";
 
 function Footer() {
     return (
-        <div className="hidden md:inline-block sticky bottom-0">
+        <div className="hidden lg:inline-block sticky bottom-0">
             <div className="bg-[#15181d] text-gray-500">
                 <div className="flex px-4 py-1 justify-between items-center space-x-5 border-t text-sm border-gray-600">
                     <div className="flex items-center space-x-5">
