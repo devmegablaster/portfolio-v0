@@ -71,11 +71,12 @@ export default function about() {
                                     type="underline"
                                     show={true}
                                     color="red"
+                                    iterations={3}
                                 >
                                     A little About Me
                                 </RoughNotation>
                             </h1>
-                            <p className="font-mono leading-10">
+                            <p className="font-mono text-base font-light leading-10">
                                 <p className="text-green-500">Hey There,</p>I am{" "}
                                 <span className="hover:underline transition">
                                     <RoughNotation
