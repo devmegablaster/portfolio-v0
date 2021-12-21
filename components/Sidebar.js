@@ -11,7 +11,7 @@ import {
 
 function Sidebar() {
     return (
-        <div className="flex flex-col bg-[#24292f] text-white-500 border-r border-gray-600 p-2 space-y-6">
+        <div className="hidden sm:flex flex-col bg-[#24292f] text-white-500 border-r border-gray-600 p-2 space-y-6">
             <div className="flex-grow space-y-6">
                 <VscFiles className="text-white h-8 w-8" />
                 <VscSearch className="text-gray-400 h-8 w-8" />

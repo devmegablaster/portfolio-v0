@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import TopNav from "../components/TopNav";
 import ProjectTile from "../components/ProjectTile";
 import ReactTypingEffect from "react-typing-effect";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import Link from "next/link";
 
 export default function about() {
@@ -65,33 +66,88 @@ export default function about() {
                                     </h1>
                                 </Link>
                             </div>
-                            <h1 className="font-serif text-2xl border-b border-red-500 w-48 shadow-xl text-center p-1 rounded-md">
-                                A little About Me
+                            <h1 className="font-serif text-2xl w-48 shadow-xl text-center p-1 rounded-md">
+                                <RoughNotation
+                                    type="underline"
+                                    show={true}
+                                    color="red"
+                                >
+                                    A little About Me
+                                </RoughNotation>
                             </h1>
-                            <p className="font-mono">
+                            <p className="font-mono leading-10">
                                 <p className="text-green-500">Hey There,</p>I am{" "}
                                 <span className="hover:underline transition">
-                                    Ojas Tyagi
+                                    <RoughNotation
+                                        type="circle"
+                                        color="orange"
+                                        show={true}
+                                        padding={9}
+                                        animationDelay={400}
+                                    >
+                                        Ojas&nbsp;Tyagi
+                                    </RoughNotation>
                                 </span>
                                 , a{" "}
-                                <span className="text-orange-500 font-semibold hover:bg-orange-500 hover:text-white transition hover:p-1 p-1">
-                                    Full Stack Developer
+                                <span className="text-white font-semibold transition hover:p-1 p-1">
+                                    <RoughNotation
+                                        type="highlight"
+                                        color="purple"
+                                        show={true}
+                                        padding="13"
+                                        animationDelay={800}
+                                    >
+                                        Full&nbsp;Stack&nbsp;Developer
+                                    </RoughNotation>
                                 </span>
                                 ,{" "}
-                                <span className="text-green-500 font-semibold hover:bg-green-500 hover:text-white transition hover:p-1 p-1">
-                                    Blender 3D Artist
+                                <span className="text-white font-semibold transition hover:p-1 p-1">
+                                    <RoughNotation
+                                        type="highlight"
+                                        color="green"
+                                        show={true}
+                                        padding="15"
+                                        animationDelay={1600}
+                                    >
+                                        Blender&nbsp;3D&nbsp;Artist
+                                    </RoughNotation>
                                 </span>
                                 ,{" "}
-                                <span className="text-blue-500 font-semibold hover:bg-blue-500 hover:text-white transition hover:p-1 p-1">
-                                    Unity 3D Game Developer
+                                <span className="text-white font-semibold transition hover:p-1 p-1">
+                                    <RoughNotation
+                                        type="highlight"
+                                        color="blue"
+                                        show={true}
+                                        padding="16"
+                                        animationDelay={2400}
+                                    >
+                                        Unity&nbsp;3D&nbsp;Game&nbsp;Developer
+                                    </RoughNotation>
                                 </span>
                                 ,{" "}
-                                <span className="text-rose-500 font-semibold hover:bg-rose-500 hover:text-white transition hover:p-1 p-1">
-                                    Competitive Coder
+                                <span className="text-white transition hover:p-1 p-1">
+                                    <RoughNotation
+                                        type="highlight"
+                                        color="red"
+                                        show={true}
+                                        padding="10"
+                                        animationDelay={3200}
+                                    >
+                                        Competitive&nbsp;Coder
+                                    </RoughNotation>
                                 </span>{" "}
                                 and {"a "}
-                                <span className="text-teal-500 font-semibold hover:bg-teal-500 hover:text-white transition hover:p-1 p-1">
-                                    Learner
+                                <span className="text-white transition hover:p-1 p-1">
+                                    <RoughNotation
+                                        type="highlight"
+                                        color="teal"
+                                        show={true}
+                                        padding="10"
+                                        animationDelay={4000}
+                                    >
+                                        Learner
+                                    </RoughNotation>
+                                    !
                                 </span>
                             </p>
                         </div>

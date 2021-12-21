@@ -24,7 +24,7 @@ export default function profile() {
                         <TopNav />
                     </div>
                     <div className="flex-grow border-t flex flex-col border-gray-600">
-                        <div className="bg-cover bg-conten overflow h-max flex-grow text-lg flex justify-center space-x-20 p-4">
+                        <div className="bg-cover bg-conten overflow h-max flex-grow text-lg md:flex justify-center space-y-5 md:space-y-0 md:space-x-20 p-4">
                             <div className="flex flex-col space-y-4">
                                 <h1 className="text-3xl font-medium border-b border-red-500 pb-2">
                                     Reach out to me via Socials
