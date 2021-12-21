@@ -28,7 +28,7 @@ export default function profile() {
                         <TopNav />
                     </div>
                     <div className="flex-grow border-t flex flex-col border-gray-600">
-                        <div className="bg-cover bg-conten overflow h-max flex-grow text-lg lg:flex justify-center space-y-5 lg:space-y-0 lg:space-x-20 p-4">
+                        <div className="bg-cover h-max flex-grow text-lg lg:flex justify-center space-y-5 lg:space-y-0 lg:space-x-20 p-4">
                             <div className="flex flex-col space-y-4">
                                 <h1 className="text-2xl font-light pb-2">
                                     <RoughNotation

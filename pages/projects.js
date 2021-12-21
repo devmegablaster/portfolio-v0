@@ -41,7 +41,7 @@ export default function projects() {
                                     Projects
                                 </RoughNotation>
                             </h1>
-                            <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 p-2 gap-2">
+                            <div className="grid grid-cols-2 overflow-y-auto lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 p-2 gap-2">
                                 <ProjectTile
                                     title="VSCode Portfolio"
                                     githubLink="https://github.com/MEGA-BLASTER2004/portfolio/"
