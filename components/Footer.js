@@ -34,6 +34,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="flex space-x-5 items-center">
+                        <h1>Powered By Next.js</h1>
                         <h1>Spaces: 4</h1>
                         <h1>UTF-8</h1>
                         <h1>LF</h1>

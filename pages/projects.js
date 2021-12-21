@@ -40,20 +40,34 @@ export default function projects() {
                                     Projects
                                 </RoughNotation>
                             </h1>
-                            <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-2 gap-2">
+                            <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 p-2 gap-2">
                                 <ProjectTile
                                     title="VSCode Portfolio"
                                     githubLink="https://github.com/MEGA-BLASTER2004/portfolio/"
                                     viewLink="https://dev.devmegablaster.engineer"
-                                    description="Next JS portfolio inspired by VSCode IDE"
-                                    image="https://i.ibb.co/fDH6VYh/Screenshot-2021-12-21-at-9-30-28-AM.png"
+                                    description="Portfolio made using Next.js inspired by Visual Studio Code IDE Dark Theme"
+                                    image="https://i.ibb.co/FbS2Nc5/Screenshot-2021-12-21-at-11-18-40-PM.png"
                                 />
                                 <ProjectTile
                                     title="Geex Points"
                                     githubLink="https://github.com/MEGA-BLASTER2004/geex-points/"
-                                    viewLink="https://dev.devmegablaster.engineer"
-                                    description="Full Stack web application based on sustainable waste disposal"
-                                    image="https://i.ibb.co/fDH6VYh/Screenshot-2021-12-21-at-9-30-28-AM.png"
+                                    viewLink="https://geex-points.netlify.app/"
+                                    description="Full Stack React web application based on sustainable waste disposal and collection"
+                                    image="https://i.ibb.co/HzT3BjS/Screenshot-2021-12-21-at-11-23-29-PM.png"
+                                />
+                                <ProjectTile
+                                    title="VITDS Assignments"
+                                    githubLink="https://github.com/MEGA-BLASTER2004/vitds/"
+                                    viewLink="https://vit.devmegablaster.engineer"
+                                    description="VIT Data Sc Assignment portal made using Next.js and Next Auth (Discord) [Members Only]"
+                                    image="https://i.ibb.co/B2nFPXK/Screenshot-2021-12-21-at-11-29-37-PM.png"
+                                />
+                                <ProjectTile
+                                    title="Food 101"
+                                    githubLink="https://github.com/MEGA-BLASTER2004/food101/"
+                                    viewLink="https://share.streamlit.io/mega-blaster2004/food_101/app/app.py"
+                                    description="Food 101 is a Deep Learning Model trained on the famous dataset food 101 having 86% accuracy"
+                                    image="https://i.ibb.co/BBcsk5J/Screenshot-2021-12-21-at-11-37-39-PM.png"
                                 />
                             </div>
                         </div>

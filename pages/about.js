@@ -19,7 +19,7 @@ export default function about() {
             <div className="flex items-center justify-center mt-10 text-center sm:hidden">
                 <h1>Please Rotate your Screen or view on Desktop</h1>
             </div>
-            <div className="hidden sm:flex flex-grow">
+            <div className="hidden selection:text-gray-400 sm:flex flex-grow">
                 <Sidebar />
                 <div className="bg-[#1f2428] border-r border-gray-600 text-white w-60">
                     <Paths />
@@ -49,15 +49,15 @@ export default function about() {
                                                 "Computer Science Student",
                                                 "Competitive Coder",
                                             ]}
-                                            speed={100}
+                                            speed={75}
                                             eraseDelay={1500}
-                                            eraseSpeed={100}
+                                            eraseSpeed={50}
                                             typingDelay={800}
                                         />
                                     </h1>
                                 </div>
                             </div>
-                            <div className="flex items-center space-x-4 pb-6 shadow-2xl rounded-xl border-b border-blue-500">
+                            <div className="flex items-center space-x-4 pb-6 rounded-xl border-b border-blue-500">
                                 <Link href="/socials">
                                     <h1 className="border border-red-500 p-2 w-28 cursor-pointer hover:rounded-xl rounded-md hover:scale-105 hover:shadow-xl hover:bg-red-500 transition">
                                         Contact Me
@@ -80,7 +80,7 @@ export default function about() {
                                 </RoughNotation>
                             </h1>
                             <p className="font-mono text-base font-light leading-10">
-                                <p className="text-green-500">Hey There,</p>I am{" "}
+                                <p className="text-gray-300">Hey There,</p>I am{" "}
                                 <span className="hover:underline transition">
                                     <RoughNotation
                                         type="circle"
@@ -129,7 +129,7 @@ export default function about() {
                                     </RoughNotation>
                                 </span>
                                 ,{" "}
-                                <span className="text-white transition hover:p-1 p-1">
+                                <span className="text-white font-semibold transition hover:p-1 p-1">
                                     <RoughNotation
                                         type="highlight"
                                         color="red"
@@ -141,7 +141,7 @@ export default function about() {
                                     </RoughNotation>
                                 </span>{" "}
                                 and {"a "}
-                                <span className="text-white transition hover:p-1 p-1">
+                                <span className="text-white font-semibold transition hover:p-1 p-1">
                                     <RoughNotation
                                         type="highlight"
                                         color="teal"
@@ -153,6 +153,57 @@ export default function about() {
                                     </RoughNotation>
                                     !
                                 </span>
+                                <div className="font-mono">
+                                    I am currently a{" "}
+                                    <RoughNotation
+                                        type="box"
+                                        animationDelay={4800}
+                                        show={true}
+                                        color="violet"
+                                        iterations={4}
+                                    >
+                                        B.Tech&nbsp;Computer&nbsp;Science
+                                    </RoughNotation>{" "}
+                                    Undergrad at{" "}
+                                    <RoughNotation
+                                        type="highlight"
+                                        animationDelay={5600}
+                                        show={true}
+                                        color="gray"
+                                    >
+                                        Vellore&nbsp;Institute&nbsp;of&nbsp;Technology
+                                    </RoughNotation>
+                                    , Vellore, India.
+                                </div>{" "}
+                                Catch up with me on{" "}
+                                <a
+                                    href="https://instagram.com/next._.js"
+                                    className="hover:underline"
+                                >
+                                    <RoughNotation
+                                        type="circle"
+                                        color="pink"
+                                        show={true}
+                                        animationDelay={6400}
+                                        padding={8}
+                                    >
+                                        Instagram
+                                    </RoughNotation>
+                                </a>
+                                <br />
+                                <RoughNotation
+                                    type="box"
+                                    color="#e75480"
+                                    show={true}
+                                    animationDelay={7200}
+                                    padding={5}
+                                >
+                                    Life
+                                </RoughNotation>
+                                &nbsp;
+                                {"->"} 99 little bugs in the code. 99 little
+                                bugs in the code. Take one down, patch it
+                                around. 127 little bugs in the code...👨‍💻 <br />
                             </p>
                         </div>
                     </div>

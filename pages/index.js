@@ -30,7 +30,13 @@ export default function Home() {
                     </div>
                     <div className="flex-grow border-t flex flex-col border-gray-600">
                         <div className="bg-content h-screen sm:h-max bg-no-repeat bg-cover flex flex-col p-8 justify-center space-y-5 flex-grow text-lg">
-                            <SiVisualstudio className="h-20 w-20 p-4 border border-blue-500 rounded-xl text-blue-500" />
+                            <div className="rounded-full bg-red-500 self-baseline">
+                                <img
+                                    src="https://i.ibb.co/b1fGdd2/d07f973f0f01cb8a3c96d1655deee96a-sticker.png"
+                                    alt="Ojas"
+                                    className="w-36 h-36 rounded-full z-10"
+                                />
+                            </div>
                             <div className="flex items-center justify-between">
                                 <h1 className="text-white font-mono text-5xl">
                                     Ojas Tyagi

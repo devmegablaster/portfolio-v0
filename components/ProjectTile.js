@@ -11,7 +11,7 @@ function ProjectTile(props) {
             <img
                 src={props.image}
                 alt="image"
-                className="rounded-full w-24 h-24 border group-hover:border-blue-500 border-red-500 self-center"
+                className="rounded-full w-28 h-28 border group-hover:border-blue-500 border-red-500 self-center"
             />
             <div className="flex space-x-2 items-center justify-center">
                 <a
