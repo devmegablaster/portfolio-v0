@@ -15,7 +15,10 @@ import { RoughNotation } from "react-rough-notation";
 export default function projects() {
     return (
         <div className="flex flex-col h-screen">
-            <div className="flex flex-grow">
+            <div className="flex items-center justify-center mt-10 text-center sm:hidden">
+                <h1>Please Rotate your Screen or view on Desktop</h1>
+            </div>
+            <div className="hidden sm:flex flex-grow">
                 <Sidebar />
                 <div className="bg-[#1f2428] border-r border-gray-600 text-white w-60">
                     <Paths />
