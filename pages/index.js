@@ -27,10 +27,10 @@ export default function Home() {
                         <TopNav />
                     </div>
                     <div className="flex-grow border-t flex flex-col border-gray-600">
-                        <div className="bg-content bg-no-repeat bg-cover overflow-scroll h-max flex flex-col p-8 justify-center space-y-5 flex-grow text-lg">
+                        <div className="bg-content bg-no-repeat bg-cover overflow h-max flex flex-col p-8 justify-center space-y-5 flex-grow text-lg">
                             <SiVisualstudio className="h-20 w-20 p-4 border border-blue-500 rounded-xl text-blue-500" />
                             <div className="flex items-center justify-between">
-                                <h1 className="font-mono text-white text-5xl">
+                                <h1 className="text-white font-mono text-5xl">
                                     Ojas Tyagi
                                 </h1>
                             </div>
@@ -40,7 +40,7 @@ export default function Home() {
                                         "Full Stack Developer",
                                         "3D Animator",
                                         "Unity Game Developer",
-                                        "Student",
+                                        "Computer Science Student",
                                         "Competitive Coder",
                                     ]}
                                     speed={100}

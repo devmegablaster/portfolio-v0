@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 function Paths() {
     return (
         <div>
-            <div className="flex p-2 items-center justify-between text-lg border-b border-gray-600 mb-1">
+            <div className="flex p-2 items-center justify-between text-lg border-b border-gray-600 mb-1 w-60">
                 <h1>Explorer</h1>
                 <BiCodeAlt className="w-5 h-5" />
             </div>
@@ -21,6 +21,7 @@ function Paths() {
             <File filename="index.js" path="/" />
             <File filename="socials.js" path="/socials" />
             <File filename="projects.js" path="/projects" />
+            <File filename="about.js" path="/about" />
         </div>
     );
 }

@@ -7,6 +7,7 @@ function TopNav() {
             <OpenEditor open="index.js" path="/" />
             <OpenEditor open="socials.js" path="/socials" />
             <OpenEditor open="projects.js" path="/projects" />
+            <OpenEditor open="about.js" path="/about" />
         </div>
     );
 }

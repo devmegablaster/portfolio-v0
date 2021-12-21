@@ -3,7 +3,7 @@ import React from "react";
 
 function ProjectTile(props) {
     return (
-        <div className="flex flex-col group text-center hover:bg-blue-500 hover:scale-100 scale-95 hover:bg-opacity-30 hover:border-blue-500 bg-gray-500 bg-opacity-20 duration-150 justify-center space-y-4 rounded-xl p-5 border border-red-500 font-mono">
+        <div className="flex flex-col group text-center hover:bg-blue-500 hover:scale-100 scale-95 hover:bg-opacity-30 hover:border-blue-500 bg-gray-500 bg-opacity-20 duration-150 justify-center space-y-8 rounded-xl p-5 border border-red-500 font-mono">
             <h1 className="text-lg font-semibold">{props.title}</h1>
             <h1 className="text-gray-200 font-medium text-sm">
                 {props.description}
