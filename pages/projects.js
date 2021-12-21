@@ -36,6 +36,7 @@ export default function projects() {
                                     animationDuration={4000}
                                     iterations={6}
                                     show="true"
+                                    strokeWidth={0.5}
                                 >
                                     Projects
                                 </RoughNotation>

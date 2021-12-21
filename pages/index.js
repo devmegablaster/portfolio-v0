@@ -11,6 +11,7 @@ import Code from "../components/Code";
 import Footer from "../components/Footer";
 import ReactTypingEffect from "react-typing-effect";
 import TopNav from "../components/TopNav";
+import { RoughNotation } from "react-rough-notation";
 
 export default function Home() {
     const router = useRouter();
@@ -39,7 +40,16 @@ export default function Home() {
                             </div>
                             <div className="flex items-center justify-between">
                                 <h1 className="text-white font-mono text-5xl">
-                                    Ojas Tyagi
+                                    <RoughNotation
+                                        type="highlight"
+                                        color="#ff00004d"
+                                        iterations={2}
+                                        animationDuration={1500}
+                                        show={true}
+                                        strokeWidth={0.2}
+                                    >
+                                        Ojas Tyagi
+                                    </RoughNotation>
                                 </h1>
                             </div>
                             <h1 className="text-white font-mono text-3xl">

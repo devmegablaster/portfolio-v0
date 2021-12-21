@@ -1,6 +1,7 @@
 import Head from "next/head";
 import File from "../components/File";
 import Sidebar from "../components/Sidebar";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { BiCodeAlt } from "react-icons/bi";
 import { VscClose } from "react-icons/vsc";
 import Paths from "../components/Paths";
@@ -29,17 +30,34 @@ export default function profile() {
                     <div className="flex-grow border-t flex flex-col border-gray-600">
                         <div className="bg-cover bg-conten overflow h-max flex-grow text-lg lg:flex justify-center space-y-5 lg:space-y-0 lg:space-x-20 p-4">
                             <div className="flex flex-col space-y-4">
-                                <h1 className="text-3xl font-medium border-b border-red-500 pb-2">
-                                    Reach out to me via Socials
+                                <h1 className="text-2xl font-light pb-2">
+                                    <RoughNotation
+                                        type="underline"
+                                        color="orange"
+                                        show={true}
+                                        iterations={5}
+                                        animationDuration={2000}
+                                    >
+                                        Reach out to me via Socials
+                                    </RoughNotation>
                                 </h1>
                                 <Socials />
                             </div>
-                            <div className="border border-red-500" />
+                            <div className="border border-red-500 lg:self-baseline lg:h-2/3" />
                             <div className="flex flex-col">
-                                <h1 className="text-3xl font-medium border-b border-red-500 pb-2">
-                                    Or Fill out this Form!
+                                <h1 className="text-2xl font-light pb-3">
+                                    <RoughNotation
+                                        type="underline"
+                                        color="orange"
+                                        show={true}
+                                        iterations={5}
+                                        animationDuration={2000}
+                                        animationDelay={2000}
+                                    >
+                                        Or Fill out this Form
+                                    </RoughNotation>
                                 </h1>
-                                <form className="p-2 flex flex-col space-y-4 font-mono">
+                                <form className="p-1 flex flex-col space-y-4 font-mono">
                                     <div className="flex space-x-6">
                                         <div className="flex flex-col">
                                             <h1 className="font-mono font-medium text-sm">
