@@ -19,7 +19,7 @@ function Paths() {
                 <h1 className="font-bold text-sm">pages</h1>
             </div>
             <File filename="index.js" path="/" />
-            <File filename="profile.js" path="/profile" />
+            <File filename="socials.js" path="/socials" />
             <File filename="projects.js" path="/projects" />
         </div>
     );

@@ -61,10 +61,10 @@ export default function Home() {
                                 <button
                                     className="border font-bold font-mono hover:shadow-2xl border-red-500 p-2 hover:scale-105 active:scale-95 rounded-md hover:bg-red-500 duration-150"
                                     onClick={() => {
-                                        router.push("/profile");
+                                        router.push("/socials");
                                     }}
                                 >
-                                    Profile
+                                    Socials
                                 </button>
                             </div>
                         </div>

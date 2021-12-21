@@ -13,7 +13,7 @@ function ProjectTile(props) {
                 alt="image"
                 className="rounded-full w-24 h-24 border group-hover:border-blue-500 border-red-500 self-center"
             />
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 items-center justify-center">
                 <a
                     href={props.githubLink}
                     className="border border-red-500 group-hover:border-blue-500 group-hover:hover:bg-blue-500 hover:scale-105 active:scale-95 text-sm hover:bg-red-500 duration-150 p-1 rounded-md"
