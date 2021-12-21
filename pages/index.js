@@ -16,7 +16,8 @@ export default function Home() {
     const router = useRouter();
     return (
         <div className="flex flex-col h-screen">
-            <div className="flex flex-grow">
+            <div className="flex sm:hidden">PLEASE ROTATE YOUR SCREEN</div>
+            <div className="hidden sm:flex flex-grow">
                 <Sidebar />
                 <div className="bg-[#1f2428] border-r border-gray-600 text-white w-60">
                     <Paths />
