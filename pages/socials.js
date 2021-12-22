@@ -11,6 +11,7 @@ import Footer from "../components/Footer";
 import ReactTypingEffect from "react-typing-effect";
 import TopNav from "../components/TopNav";
 import Socials from "../components/Socials";
+import CursorAnimation from "../components/CursorAnimation";
 
 export default function profile() {
     return (

@@ -7,7 +7,7 @@ function File(props) {
     const router = useRouter();
     return (
         <Link href={props.path}>
-            <div
+            <button
                 className={`flex ${
                     router.pathname === props.path && !props.applyProps
                         ? "bg-gray-700"
@@ -16,7 +16,7 @@ function File(props) {
             >
                 <IoLogoJavascript className="text-yellow-400 w-4 h-4" />
                 <h1>{props.filename}</h1>
-            </div>
+            </button>
         </Link>
     );
 }

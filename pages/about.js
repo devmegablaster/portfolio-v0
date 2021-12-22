@@ -12,6 +12,7 @@ import ProjectTile from "../components/ProjectTile";
 import ReactTypingEffect from "react-typing-effect";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import Link from "next/link";
+import CursorAnimation from "../components/CursorAnimation";
 
 export default function about() {
     return (
@@ -59,14 +60,14 @@ export default function about() {
                             </div>
                             <div className="flex items-center space-x-4 pb-6 rounded-xl border-b border-blue-500">
                                 <Link href="/socials">
-                                    <h1 className="border border-red-500 p-2 w-28 cursor-pointer hover:rounded-xl rounded-md hover:scale-105 hover:shadow-xl hover:bg-red-500 transition">
+                                    <button className="border border-red-500 p-2 w-28 hover:rounded-xl rounded-md hover:scale-105 hover:shadow-xl hover:bg-red-500 transition">
                                         Contact Me
-                                    </h1>
+                                    </button>
                                 </Link>
                                 <Link href="/projects">
-                                    <h1 className="border border-red-500 p-2 w-32 cursor-pointer hover:rounded-xl rounded-md hover:scale-105 hover:shadow-xl hover:bg-red-500 transition">
+                                    <button className="border border-red-500 p-2 w-32 hover:rounded-xl rounded-md hover:scale-105 hover:shadow-xl hover:bg-red-500 transition">
                                         View Projects
-                                    </h1>
+                                    </button>
                                 </Link>
                             </div>
                             <h1 className="font-serif text-2xl w-48 shadow-xl text-center p-1 rounded-md">

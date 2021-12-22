@@ -11,6 +11,7 @@ import ReactTypingEffect from "react-typing-effect";
 import TopNav from "../components/TopNav";
 import ProjectTile from "../components/ProjectTile";
 import { RoughNotation } from "react-rough-notation";
+import CursorAnimation from "../components/CursorAnimation";
 
 export default function projects() {
     return (

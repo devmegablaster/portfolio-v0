@@ -12,6 +12,7 @@ import Footer from "../components/Footer";
 import ReactTypingEffect from "react-typing-effect";
 import TopNav from "../components/TopNav";
 import { RoughNotation } from "react-rough-notation";
+import CursorAnimation from "../components/CursorAnimation";
 
 export default function Home() {
     const router = useRouter();
@@ -39,7 +40,7 @@ export default function Home() {
                                 />
                             </div>
                             <div className="flex items-center justify-between">
-                                <h1 className="text-white font-mono text-5xl">
+                                <h1 className="text-white font-mono link text-5xl">
                                     <RoughNotation
                                         type="highlight"
                                         color="#ff00004d"
