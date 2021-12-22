@@ -13,6 +13,8 @@ import ReactTypingEffect from "react-typing-effect";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import Link from "next/link";
 import CursorAnimation from "../components/CursorAnimation";
+import dynamic from "next/dynamic";
+const AnimatedCursor = dynamic(import("react-animated-cursor"), { ssr: false });
 
 export default function about() {
     return (

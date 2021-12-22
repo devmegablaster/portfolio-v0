@@ -12,6 +12,8 @@ import ReactTypingEffect from "react-typing-effect";
 import TopNav from "../components/TopNav";
 import Socials from "../components/Socials";
 import CursorAnimation from "../components/CursorAnimation";
+import dynamic from "next/dynamic";
+const AnimatedCursor = dynamic(import("react-animated-cursor"), { ssr: false });
 
 export default function profile() {
     return (

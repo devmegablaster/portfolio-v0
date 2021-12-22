@@ -13,14 +13,17 @@ import ReactTypingEffect from "react-typing-effect";
 import TopNav from "../components/TopNav";
 import { RoughNotation } from "react-rough-notation";
 import CursorAnimation from "../components/CursorAnimation";
+import dynamic from "next/dynamic";
+const AnimatedCursor = dynamic(import("react-animated-cursor"), { ssr: false });
 
-export default function Home() {
+export default function Home(props) {
     const router = useRouter();
     return (
         <div className="flex flex-col h-screen">
             <div className="flex items-center justify-center mt-10 text-center sm:hidden">
                 <h1>Please Rotate your Screen or view on Desktop</h1>
             </div>
+            {console.log(props.cursor)}
             <div className="hidden sm:flex flex-grow">
                 <Sidebar />
                 <div className="bg-[#1f2428] border-r border-gray-600 text-white w-60">

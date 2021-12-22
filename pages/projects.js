@@ -12,8 +12,10 @@ import TopNav from "../components/TopNav";
 import ProjectTile from "../components/ProjectTile";
 import { RoughNotation } from "react-rough-notation";
 import CursorAnimation from "../components/CursorAnimation";
+import dynamic from "next/dynamic";
+const AnimatedCursor = dynamic(import("react-animated-cursor"), { ssr: false });
 
-export default function projects() {
+export default function projects(props) {
     return (
         <div className="flex flex-col h-screen">
             <div className="flex items-center justify-center mt-10 text-center sm:hidden">
