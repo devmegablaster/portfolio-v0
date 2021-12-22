@@ -21,10 +21,14 @@ function Footer() {
             <div className="bg-[#15181d] text-gray-500">
                 <div className="flex px-4 py-1 justify-between items-center space-x-5 border-t text-sm border-gray-600">
                     <div className="flex items-center space-x-5">
-                        <div className="flex items-center space-x-1">
-                            <VscSourceControl className="h-4 w-4" />
-                            <h1 className="text-gray-400 text-sm">master*</h1>
-                        </div>
+                        <a href="https://github.com/MEGA-BLASTER2004">
+                            <div className="flex items-center space-x-1">
+                                <VscSourceControl className="h-4 w-4" />
+                                <h1 className="text-gray-400 text-sm">
+                                    master*
+                                </h1>
+                            </div>
+                        </a>
                         <VscCloudUpload className="h-4 w-4" />
                         <div className="flex items-center space-x-1">
                             <VscError className="h-4 w-4" />
