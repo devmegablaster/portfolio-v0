@@ -73,6 +73,13 @@ export default function projects(props) {
                                     description="Food 101 is a Deep Learning Model trained on the famous dataset food 101 having 86% accuracy"
                                     image="https://i.ibb.co/BBcsk5J/Screenshot-2021-12-21-at-11-37-39-PM.png"
                                 />
+                                <ProjectTile
+                                    title="Spotify Web Controller"
+                                    githubLink="https://github.com/MEGA-BLASTER2004/"
+                                    viewLink="https://spotify.devmegablaster.engineer/"
+                                    description="Spotify WebController uses spotify API to control an active device (Premium Required)"
+                                    image="https://i.ibb.co/jwmTxRj/Screenshot-2022-02-02-at-7-59-28-PM.png"
+                                />
                             </div>
                         </div>
                     </div>
