@@ -80,6 +80,13 @@ export default function projects(props) {
                                     description="Spotify WebController uses spotify API to control an active device (Premium Required)"
                                     image="https://i.ibb.co/jwmTxRj/Screenshot-2022-02-02-at-7-59-28-PM.png"
                                 />
+                                <ProjectTile
+                                    title="Why? Streams Streaming Platform"
+                                    githubLink="https://github.com/MEGA-BLASTER2004/"
+                                    viewLink="https://dev.devmegablaster.engineer/"
+                                    description="Why? Streams is a streaming platform where you can stream and what not (UNDER DEVELOPMENT)"
+                                    image="https://i.ibb.co/0hgft7Z/Screenshot-2022-02-02-at-8-05-12-PM.png"
+                                />
                             </div>
                         </div>
                     </div>
