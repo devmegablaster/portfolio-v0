@@ -1,20 +1,20 @@
-import Head from "next/head";
-import File from "../components/File";
-import Sidebar from "../components/Sidebar";
-import { BiCodeAlt } from "react-icons/bi";
-import { VscClose } from "react-icons/vsc";
-import Paths from "../components/Paths";
-import OpenEditor from "../components/OpenEditor";
-import Code from "../components/Code";
-import Footer from "../components/Footer";
-import TopNav from "../components/TopNav";
-import ProjectTile from "../components/ProjectTile";
-import ReactTypingEffect from "react-typing-effect";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-import Link from "next/link";
-import CursorAnimation from "../components/CursorAnimation";
-import dynamic from "next/dynamic";
-const AnimatedCursor = dynamic(import("react-animated-cursor"), { ssr: false });
+import Head from 'next/head';
+import File from '../components/File';
+import Sidebar from '../components/Sidebar';
+import { BiCodeAlt } from 'react-icons/bi';
+import { VscClose } from 'react-icons/vsc';
+import Paths from '../components/Paths';
+import OpenEditor from '../components/OpenEditor';
+import Code from '../components/Code';
+import Footer from '../components/Footer';
+import TopNav from '../components/TopNav';
+import ProjectTile from '../components/ProjectTile';
+import ReactTypingEffect from 'react-typing-effect';
+import { RoughNotation, RoughNotationGroup } from 'react-rough-notation';
+import Link from 'next/link';
+import CursorAnimation from '../components/CursorAnimation';
+import dynamic from 'next/dynamic';
+const AnimatedCursor = dynamic(import('react-animated-cursor'), { ssr: false });
 
 export default function about() {
     return (
@@ -35,7 +35,7 @@ export default function about() {
                         <div className="bg-conten bg-no-repeat bg-cover flex flex-col p-8 space-y-5 flex-grow text-lg">
                             <div className="flex items-center ">
                                 <img
-                                    src="https://i.ibb.co/HK56JPL/1638594927184.jpg"
+                                    src="https://i.ibb.co/D1SBLCy/Whats-App-Image-2022-09-21-at-12-13-54-AM.jpg"
                                     alt="alt"
                                     className="w-24 h-24 border-2 border-red-500 rounded-full"
                                 />
@@ -46,11 +46,11 @@ export default function about() {
                                     <h1 className="font-light text-green-500">
                                         <ReactTypingEffect
                                             text={[
-                                                "Full Stack Developer",
-                                                "3D Animator",
-                                                "Unity Game Developer",
-                                                "Computer Science Student",
-                                                "Competitive Coder",
+                                                'Full Stack Developer',
+                                                '3D Animator',
+                                                'Unity Game Developer',
+                                                'Computer Science Student',
+                                                'Competitive Coder',
                                             ]}
                                             speed={75}
                                             eraseDelay={1500}
@@ -83,7 +83,7 @@ export default function about() {
                                 </RoughNotation>
                             </h1>
                             <p className="font-mono text-base font-light leading-10">
-                                <p className="text-gray-300">Hey There,</p>I am{" "}
+                                <p className="text-gray-300">Hey There,</p>I am{' '}
                                 <span className="hover:underline transition">
                                     <RoughNotation
                                         type="circle"
@@ -95,7 +95,7 @@ export default function about() {
                                         Ojas&nbsp;Tyagi
                                     </RoughNotation>
                                 </span>
-                                , a{" "}
+                                , a{' '}
                                 <span className="text-white font-semibold transition hover:p-1 p-1">
                                     <RoughNotation
                                         type="highlight"
@@ -107,7 +107,7 @@ export default function about() {
                                         Full&nbsp;Stack&nbsp;Developer
                                     </RoughNotation>
                                 </span>
-                                ,{" "}
+                                ,{' '}
                                 <span className="text-white font-semibold transition hover:p-1 p-1">
                                     <RoughNotation
                                         type="highlight"
@@ -119,7 +119,7 @@ export default function about() {
                                         Blender&nbsp;3D&nbsp;Artist
                                     </RoughNotation>
                                 </span>
-                                ,{" "}
+                                ,{' '}
                                 <span className="text-white font-semibold transition hover:p-1 p-1">
                                     <RoughNotation
                                         type="highlight"
@@ -131,7 +131,7 @@ export default function about() {
                                         Unity&nbsp;3D&nbsp;Game&nbsp;Developer
                                     </RoughNotation>
                                 </span>
-                                ,{" "}
+                                ,{' '}
                                 <span className="text-white font-semibold transition hover:p-1 p-1">
                                     <RoughNotation
                                         type="highlight"
@@ -142,8 +142,8 @@ export default function about() {
                                     >
                                         Competitive&nbsp;Coder
                                     </RoughNotation>
-                                </span>{" "}
-                                and {"a "}
+                                </span>{' '}
+                                and {'a '}
                                 <span className="text-white font-semibold transition hover:p-1 p-1">
                                     <RoughNotation
                                         type="highlight"
@@ -157,7 +157,7 @@ export default function about() {
                                     !
                                 </span>
                                 <div className="font-mono">
-                                    I am currently a{" "}
+                                    I am currently a{' '}
                                     <RoughNotation
                                         type="box"
                                         animationDelay={4800}
@@ -166,8 +166,8 @@ export default function about() {
                                         iterations={4}
                                     >
                                         B.Tech&nbsp;Computer&nbsp;Science
-                                    </RoughNotation>{" "}
-                                    Undergrad at{" "}
+                                    </RoughNotation>{' '}
+                                    Undergrad at{' '}
                                     <RoughNotation
                                         type="highlight"
                                         animationDelay={5600}
@@ -177,8 +177,8 @@ export default function about() {
                                         Vellore&nbsp;Institute&nbsp;of&nbsp;Technology
                                     </RoughNotation>
                                     , Vellore, India.
-                                </div>{" "}
-                                Catch up with me on{" "}
+                                </div>{' '}
+                                Catch up with me on{' '}
                                 <a
                                     href="https://instagram.com/next._.js"
                                     className="hover:underline"
@@ -204,7 +204,7 @@ export default function about() {
                                     Life
                                 </RoughNotation>
                                 &nbsp;
-                                {"->"} 99 little bugs in the code. 99 little
+                                {'->'} 99 little bugs in the code. 99 little
                                 bugs in the code. Take one down, patch it
                                 around. 127 little bugs in the code...👨‍💻 <br />
                             </p>

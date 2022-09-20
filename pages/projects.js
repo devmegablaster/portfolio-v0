@@ -1,19 +1,19 @@
-import Head from "next/head";
-import File from "../components/File";
-import Sidebar from "../components/Sidebar";
-import { BiCodeAlt } from "react-icons/bi";
-import { VscClose } from "react-icons/vsc";
-import Paths from "../components/Paths";
-import OpenEditor from "../components/OpenEditor";
-import Code from "../components/Code";
-import Footer from "../components/Footer";
-import ReactTypingEffect from "react-typing-effect";
-import TopNav from "../components/TopNav";
-import ProjectTile from "../components/ProjectTile";
-import { RoughNotation } from "react-rough-notation";
-import CursorAnimation from "../components/CursorAnimation";
-import dynamic from "next/dynamic";
-const AnimatedCursor = dynamic(import("react-animated-cursor"), { ssr: false });
+import Head from 'next/head';
+import File from '../components/File';
+import Sidebar from '../components/Sidebar';
+import { BiCodeAlt } from 'react-icons/bi';
+import { VscClose } from 'react-icons/vsc';
+import Paths from '../components/Paths';
+import OpenEditor from '../components/OpenEditor';
+import Code from '../components/Code';
+import Footer from '../components/Footer';
+import ReactTypingEffect from 'react-typing-effect';
+import TopNav from '../components/TopNav';
+import ProjectTile from '../components/ProjectTile';
+import { RoughNotation } from 'react-rough-notation';
+import CursorAnimation from '../components/CursorAnimation';
+import dynamic from 'next/dynamic';
+const AnimatedCursor = dynamic(import('react-animated-cursor'), { ssr: false });
 
 export default function projects(props) {
     return (
@@ -46,11 +46,39 @@ export default function projects(props) {
                             </h1>
                             <div className="grid grid-cols-2 overflow-y-auto lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 p-2 gap-2">
                                 <ProjectTile
+                                    title="TidyTown"
+                                    githubLink="https://github.com/MEGA-BLASTER2004/"
+                                    viewLink="https://tidytown.vercel.app/"
+                                    description="TidyTown is a Revamp for The original Idea of Geex Points with an Updated UI (HACKATHON WINNER)"
+                                    image="https://i.ibb.co/TTj8CQD/Screenshot-2022-09-20-at-11-56-49-PM.png"
+                                />
+                                <ProjectTile
+                                    title="Gravitas 2022"
+                                    githubLink="https://github.com/MEGA-BLASTER2004/"
+                                    viewLink="https://gravitas.vit.ac.in/"
+                                    description="Gravitas is an Event organised by VIT every Year, in 2022 i Developed the Website for them..."
+                                    image="https://i.ibb.co/LvS6WM3/Screenshot-2022-09-21-at-12-11-37-AM.png"
+                                />
+                                <ProjectTile
                                     title="VSCode Portfolio"
                                     githubLink="https://github.com/MEGA-BLASTER2004/portfolio/"
                                     viewLink="https://dev.devmegablaster.engineer"
-                                    description="Portfolio made using Next.js inspired by Visual Studio Code IDE Dark Theme"
+                                    description="Portfolio made using Next.js inspired by Visual Studio Code IDE Dark Theme (Renovation Soon :) )"
                                     image="https://i.ibb.co/FbS2Nc5/Screenshot-2021-12-21-at-11-18-40-PM.png"
+                                />
+                                <ProjectTile
+                                    title="BunkMates"
+                                    githubLink="https://github.com/MEGA-BLASTER2004/"
+                                    viewLink="https://bunkmates.vercel.app/"
+                                    description="BunkMates is a platform that helps you find your RoomMates (3000+ users on the first day)"
+                                    image="https://i.ibb.co/gvkCK6D/Screenshot-2022-09-21-at-12-08-38-AM.png"
+                                />
+                                <ProjectTile
+                                    title="Food 101"
+                                    githubLink="https://github.com/MEGA-BLASTER2004/food101/"
+                                    viewLink="https://share.streamlit.io/mega-blaster2004/food_101/app/app.py"
+                                    description="Food 101 is a Deep Learning Model trained on the famous dataset food 101 having 86% accuracy"
+                                    image="https://i.ibb.co/BBcsk5J/Screenshot-2021-12-21-at-11-37-39-PM.png"
                                 />
                                 <ProjectTile
                                     title="Geex Points"
@@ -66,13 +94,7 @@ export default function projects(props) {
                                     description="VIT Data Sc Assignment portal made using Next.js and Next Auth (Discord) [Members Only]"
                                     image="https://i.ibb.co/B2nFPXK/Screenshot-2021-12-21-at-11-29-37-PM.png"
                                 />
-                                <ProjectTile
-                                    title="Food 101"
-                                    githubLink="https://github.com/MEGA-BLASTER2004/food101/"
-                                    viewLink="https://share.streamlit.io/mega-blaster2004/food_101/app/app.py"
-                                    description="Food 101 is a Deep Learning Model trained on the famous dataset food 101 having 86% accuracy"
-                                    image="https://i.ibb.co/BBcsk5J/Screenshot-2021-12-21-at-11-37-39-PM.png"
-                                />
+
                                 <ProjectTile
                                     title="Spotify Web Controller"
                                     githubLink="https://github.com/MEGA-BLASTER2004/"
